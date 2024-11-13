@@ -1,5 +1,12 @@
+import HeaderComponent from "./HeaderComponent";
+
 const Browse = () => {
-  return <div>Browse</div>;
+  return (
+    <div className="">
+      <HeaderComponent />
+      <div>Browse</div>
+    </div>
+  );
 };
 
 export default Browse;
